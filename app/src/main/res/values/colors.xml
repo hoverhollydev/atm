@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Geo ATM Parqueo -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="whitefull">#FFFFFFFF</color>
+
+    <!-- Texto_ -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#B6B6B6</color>
+
+    <!-- ATM -->
+    <color name="dark_blue">#008080</color>
+    <color name="light_blue">#8DEEEE</color>
+    <color name="blue">#009ACD</color>
+    <color name="blue_button">#07aaf0</color>
+    <color name="light_gray">#e0e0e0</color>
+    <color name="light_yellow">#f9ffab</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="green_light">#a717b1a8</color>
+    <color name="green_light_tone">#8011fee1</color>
+    <color name="dialogos">#fb1c3549</color>
+    <color name="red_alert">#ff0000</color>
+
+</resources>

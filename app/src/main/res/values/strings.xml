@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">CExIA</string>
+
+    <!-- Inicio App - Splash Screen -->
+    <string name="str_intentar_de_nuevo">Intentar de nuevo</string>
+    <string name="str_activar_gps">Active el GPS en precisión alta.</string>
+    <string name="album_name">FotosCitaciones</string>
+
+    <!-- Iniciar Sesión -->
+    <string name="str_usuario">Usuario</string>
+    <string name="str_contraseña">Contraseña</string>
+    <string name="str_iniciando_sesion">Iniciando Sesión</string>
+    <string name="str_esperar">Por favor espere...</string>
+    <string name="str_no_usuario">Usuario no registrado en el sistema.</string>
+    <string name="str_no_conexion_servidor">No existe conexion con el servidor...</string>
+    <string name="sin_conexion">No estás conectado a Internet. Por favor, revise la conexión.</string>
+
+    <!-- Menu -->
+    <string name="str_inicio">Inicio</string>
+    <string name="str_configuracion">Configuración</string>
+    <string name="str_ajustes">Ajustes</string>
+    <string name="str_acerca_de">Acerca de</string>
+    <string name="str_informacion_legal">Información legal</string>
+    <string name="str_salir">Salir</string>
+    <string name="str_version">3.0.10</string>
+    <string name="str_version_name">ATM 3.0.10.apk</string>
+    <string name="str_version_text">Versión de Aplicación 3.0.12</string>
+    <string name="str_version_coip">Versión de excel COIP 1.0</string>
+    <string name="str_by">© Powered by Wellscom</string>
+    <string name="str_anio">Año 2016</string>
+    <string name="str_fecha_actualizacion_app">Fecha de Actualización 19/03/2020</string>
+    <string name="str_update_app">Comprobar Actualizaciones</string>
+    <string name="str_update_app_search">Comprobando Actualizaciones . . .</string>
+    <string name="str_app_update_ready">La aplicación está actualizada.</string>
+
+    <!-- Alert Dialog msj -->
+    <string name="str_atm">CExIA</string>
+    <string name="str_sistema">Sistema</string>
+    <string name="str_alerta">Alerta!</string>
+    <string name="str_mensaje">Mensaje</string>
+    <string name="str_cuartel">Mensaje - Cuartel General</string>
+    <string name="str_usuario_incorrecto">Usuario/Contraseña incorrectos.</string>
+    <string name="str_sin_excel">No existe el archivo MultasElectronica.xls, por favor contáctese con el soporte técnico.</string>
+    <string name="str_sin_excel_actual">No existe el archivo MultasElectronica.xls actual, por favor contáctese con el soporte técnico.</string>
+    <string name="str_error_excel">Existe un problema de lectura con el archivo MultasElectronica.xls, por favor contáctese con el soporte técnico.</string>
+    <string name="str_sin_logo">No existe el archivo atm_logo_gris.jpg, por favor contáctese con el soporte técnico.</string>
+    <string name="str_excepcion">Se ha producido una excepción, por favor inténtelo de nuevo.</string>
+    <string name="str_no_conexion_datos">No existe conexión de Internet o VPN o hay un problema con el servidor, por favor revise sus conexiones!</string>
+    <string name="str_sin_app_pdf">No existe aplicación para lectura de PDF.</string>
+    <string name="str_sin_pdf">No existe el fichero coip_transito.pdf, por favor contáctese con el soporte técnico.</string>
+    <string name="str_valida_foto">Se requiere al menos una foto de la placa para emitir la citación.</string>
+    <string name="str_valida_lugar">Se requiere el lugar de ocurrencia para emitir la citación.</string>
+    <string name="str_valida_placa">Se requiere una licencia o placa para emitir la citación."</string>
+    <string name="str_valida_infracion">Se requiere una infracción para emitir la citación."</string>
+    <string name="str_placa_correcta">Ingrese una licencia o placa correcta.</string>
+    <string name="str_placa_correcta_add">Ingrese una placa correcta.</string>
+    <string name="str_valida_impresora">El nombre de la impresora es incorrecto o la impresora no es compatible o no se encuentra sincronizada con este dispositivo.</string>
+    <string name="str_datos_inestable_placa">Sin conexión de Internet o VPN o con el servidor, inténtelo de nuevo o proceda a realizar la citación verificando que los datos sean correctos.</string>
+    <string name="str_todas_citaciones_enviadas">Todas las citaciones pendientes han sido enviadas con éxito.</string>
+    <string name="str_ok">OK</string>
+
+    <!-- licencia/placa -->
+    <string name="str_placa">Placa</string>
+    <string name="str_consulta_licencia">Consultando Licencia</string>
+    <string name="str_consulta_placa">Consultando Placa</string>
+    <string name="str_consultar">Consultando datos</string>
+    <string name="str_no_placa">La placa no existe en la ANT, verifique por radio si la placa es falsa o ha sido modificada para evadir multas. De ser el caso reportar a la policía.</string>
+    <string name="str_no_licencia">La licencia no existe en la ANT, verifique por radio si la licencia es falsa o ha sido modificada para evadir multas. De ser el caso reportar a la policía</string>
+
+    <!-- Main Content -->
+    <string name="str_descripcion_vehiculo">Descripción del vehículo</string>
+    <string name="str_licencia_placa">Licencia/Placa</string>
+    <string name="str_lugar_ocurrencia">Lugar de ocurrencia</string>
+    <string name="str_observacion">Observación</string>
+    <string name="str_guardar_multa">Guardar multa</string>
+
+    <!-- Validaciones -->
+    <string name="str_campo_obligatorio">Campo requerido!</string>
+    <string name="str_error">Error</string>
+
+    <!-- Impresora -->
+    <string name="str_conectando">Conectando.</string>
+    <string name="str_conectando1">Conectando..</string>
+    <string name="str_conectando2">Conectando...</string>
+    <string name="str_encender_impresora">No existe comunicación con la impresora, inténtelo de nuevo!</string>
+    <string name="str_imprimiendo">Imprimiendo.</string>
+    <string name="str_imprimiendo1">Imprimiendo..</string>
+    <string name="str_imprimiendo2">Imprimiendo...</string>
+    <string name="str_no_impresora">No se reconoce la impresora!</string>
+    <string name="str_reenviando_citacion">Reenviando citación...</string>
+    <string name="str_enviando_citacion">Enviando citación.</string>
+    <string name="str_enviando_citacion1">Enviando citación..</string>
+    <string name="str_enviando_citacion2">Enviando citación...</string>
+    <string name="str_impresora_sin_conexion">Impresora sin conexión!</string>
+    <string name="str_finalizando">Finalizando.</string>
+    <string name="str_finalizando1">Finalizando..</string>
+    <string name="str_finalizando2">Finalizando...</string>
+    <string name="str_impresora_abierta">Impresora abierta!</string>
+    <string name="str_impresora_pausada">Impresora pausada!</string>
+    <string name="str_impresora_sin_papel">Impresora sin papel!</string>
+    <string name="str_impresora_no_lista">La impresora no está lista para imprimir revise el papel o el logo de impresión!</string>
+    <string name="str_actualizacion_COIP">Se actualizó el archivo excel MultasElectronica.xls versión </string>
+    <string name="str_sesion_cerrada_apk">La aplicación se va a reiniciar, se requiere instalar una nueva actualización de CExIA app!</string>
+    <string name="str_cerrando_sesion">Cerrando sesión, por favor espere...</string>
+    <string name="str_comprimiendo_imagen">Comprimiendo imagen, por favor espere...</string>
+    <string name="str_galeria">Galería</string>
+
+
+    <!-- Status WebSocket -->
+    <string name="str_status_10">Error general, por favor inténtelo de nuevo.</string>
+    <string name="str_status_20">Error interno mensaje desconocido, por favor inténtelo de nuevo.</string>
+    <string name="str_status_30">Error interno web service, servicio no está disponible temporalmente. Por favor inténtelo de nuevo.</string>
+    <string name="str_status_31">Error interno base de datos, por favor inténtelo de nuevo.</string>
+    <string name="str_status_43">Error interno de acceso, por favor inicie sesión de nuevo.</string>
+    <string name="str_status_44">El dispositivo esta inactivo, por favor contáctese con el soporte técnico.</string>
+    <string name="str_status_45">La token expiró por error en parámetros, por favor inicie sesión de nuevo.</string>
+    <string name="str_status_47">El token expiró por tiempo, por favor inicie sesión de nuevo.</string>
+    <string name="str_status_48">El token expiró, alguien inicio sesión desde otro dispositivo, por favor inicie sesión de nuevo.</string>
+    <string name="str_status_50">Error formato falso en parámetros de mensaje, por favor inicie sesión de nuevo.</string>
+    <string name="str_status_70">Se requiere reiniciar la sesión, se activará la actualización disponible de CExIA app!</string>
+    <string name="str_status_all">El sistema se encuentra temporalmente fuera de servicio, por favor inicie sesión mas tarde.</string>
+
+    <!-- Activity Login -->
+    <string name="text_iniciar_sesion">Iniciar Sesión</string>
+
+    <!-- Activity Settings -->
+    <string name="text_imei">Imei:</string>
+    <string name="text_coordenadas">Coordenadas GPS:</string>
+    <string name="text_latlon">(Lat 0.00, Lon 0.00)</string>
+    <string name="text_test_impresion">Test de Impresión</string>
+
+    <!-- Nav_Header -->
+    <string name="text_nombre_usuario">Nombre de Usuario</string>
+    <string name="text_correo_usuario">Correo Electrónico</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="reimprimir_citacion">Reimprimir citación</string>
+
+    <!-- Camera2 -->
+    <string name="record">Grabar</string>
+    <string name="stop">Parar</string>
+    <string name="permission_request">Se requiere permisos de Camara y Audio.</string>
+    <string name="camera_error">Este dispositivo no soporta Camera2 API.</string>
+
+
+
+</resources>

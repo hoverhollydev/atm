@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sección de configuración -->
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_contador_diario"
+            android:title="Citaciones diarias: 0"
+            android:checked="false"
+            android:visible="true">
+        </item>
+
+    </group>
+
+    <!-- Sección de configuración -->
+    <group android:checkableBehavior="none">
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/nav_configurcion"
+            android:title="@string/str_configuracion">
+            <menu>
+                <item
+                    android:id="@+id/nav_imprimir"
+                    android:icon="@mipmap/ic_printer"
+                    android:title="@string/reimprimir_citacion">
+                </item>
+
+                <item
+                    android:id="@+id/nav_salir"
+                    android:icon="@mipmap/ic_stat_exit_to_app"
+                    android:title="@string/str_salir" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

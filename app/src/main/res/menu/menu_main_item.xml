@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/actionNotifications"
+        android:icon="@drawable/xml_shape_notification"
+        android:menuCategory="secondary"
+        android:orderInCategory="1"
+        android:title="Citaciones no enviadas"
+        app:actionLayout="@layout/feed_update_count"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/str_ajustes"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_legal"
+        android:launchMode="singleTop"
+        android:title="@string/str_informacion_legal"
+        app:showAsAction="never"/>
+
+    <!--<item android:id="@+id/errores"
+        android:launchMode="singleTop"
+        android:title="Envío de errores"
+        app:showAsAction="never"/> -->
+
+</menu>

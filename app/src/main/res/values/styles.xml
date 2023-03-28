@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_button</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <!-- Splash -->
+    <style name="Theme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.MaterialDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_button</item>
+        <item name="colorAccent">@color/blue</item>
+
+        <!--<item name="android:windowBackground">@drawable/dialog_background_light</item>
+       <item name="android:textColorPrimary">@color/primary_text_light</item>
+       <item name="android:textColorSecondary">@color/secondary_text_light</item>
+       <item name="android:textColorTertiary">@color/secondary_text_light</item>-->
+   </style>
+
+    <!-- Dialog -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <!-- toolbar -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/frament_count"
+    android:layout_marginRight="10dp"
+    android:focusableInTouchMode="false" >
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="65dip"
+        android:layout_height="65dip"
+        android:layout_marginTop="2.2dp"
+        android:background="@mipmap/ic_reenviar"
+        android:focusableInTouchMode="false" />
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/myButton"
+        android:layout_alignRight="@id/myButton"
+        android:text="0"
+        android:visibility="invisible"
+        android:focusableInTouchMode="false"
+        android:textColor="#FFF"
+        android:textSize="10.5sp"
+        android:textStyle="bold"
+        android:background="@drawable/xml_shape_notification"/>
+</RelativeLayout>
